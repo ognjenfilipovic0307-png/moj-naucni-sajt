@@ -1,0 +1,53 @@
+/* GLOBALNI STILOVI (Pozadina i font) */
+body {
+    background-color: #0d1a26; /* Veoma tamno plava pozadina (svemir) */
+    color: #e6e6e6;            /* Svetlo siva slova za dobar kontrast */
+    font-family: Arial, sans-serif;
+    margin: 0;                
+    padding: 0;
+}
+
+/* ZAGLAVLJE */
+header {
+    background-color: #1a2c41;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #ffd700; /* Zlatna linija */
+}
+
+h1 {
+    color: #ffd700; /* Zlatna boja */
+    margin-bottom: 5px;
+}
+
+/* STILOVI ZA ČLANKE (Sekcije) */
+section {
+    background-color: #1a2c41;
+    margin: 20px auto;          /* Centriranje */
+    padding: 20px;
+    border-radius: 8px;        
+    max-width: 800px;          
+}
+
+h2, h3 {
+    color: #00bcd4; /* Svetlo plava boja */
+    border-bottom: 1px solid #00bcd4;
+    padding-bottom: 10px;
+}
+
+/* STILOVI ZA SLIKU */
+img {
+    max-width: 100%; /* Da slika ne bude veća od sekcije */
+    height: auto;   
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* PODNOŽJE */
+footer {
+    background-color: #1a2c41;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 0.8em;
+}
